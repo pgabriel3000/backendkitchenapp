@@ -3,7 +3,7 @@ from rest_framework import routers
 from .views import FoodViewSet
 
 router = routers.DefaultRouter()
-router.register(r'orders', FoodViewSet)
+router.register(r'food', FoodViewSet)
 
 urlpatterns = [
     path('', include(router.urls)) ,
