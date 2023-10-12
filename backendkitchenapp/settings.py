@@ -61,6 +61,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     'food',
     'orders',
+    'drinks',
     'rest_framework',
     'corsheaders'
 ]
